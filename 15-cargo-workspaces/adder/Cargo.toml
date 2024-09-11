@@ -1,0 +1,10 @@
+[package]
+name = "adder"
+version = "0.1.0"
+edition = "2021"
+
+## Cargo doesn’t assume that crates in a workspace will depend on each other,
+## so we need to be explicit about the dependency relationships.
+[dependencies]
+add_one = { path = "../add_one" }
+add_two = { path = "../add_two" }

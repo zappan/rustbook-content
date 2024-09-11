@@ -2,4 +2,4 @@
 *.log
 *.gitignore
 
-/target
+target/

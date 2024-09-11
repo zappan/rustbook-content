@@ -1,0 +1,9 @@
+[package]
+name = "oo-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gui = { path = "./gui" }
+blog_nonrust_way = { path = "./blog_nonrust_way" }
+blog_rust_way = { path = "./blog_rust_way" }

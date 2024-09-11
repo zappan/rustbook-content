@@ -1,0 +1,6 @@
+[package]
+name = "funcs_closures_advanced"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
